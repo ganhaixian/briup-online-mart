@@ -1,0 +1,84 @@
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+body{ font-family:"微软雅黑"; margin:0; padding:0; background-color:#ececec;}
+a{ text-decoration:none;}
+
+/*
+top头部
+*/
+#top{ width:802px; height:270px; margin:0 auto;}
+#header{ width:802px; height:80px; margin:0; background-color:#990000; position:relative;}
+#topNav{ width:800px; height:24px;  background:url(../images/nav1.png) no-repeat top right;}
+.top1{ font-size:13px; color:#e1e1e1; float:left; margin-left:280px;}
+.top2{ font-size:12px; color:rgb(255,255,255); float:right; margin-left:4px;}
+#topFoot{ margin:0; height:56px; width:802px; background:url(../images/index_03.png) no-repeat top left;}
+#topFoot form{ float:left; margin-top:12px; margin-left:460px;}
+#black{ width:802px; height:8px; margsin:0; background-color:#4d4e50;}
+#white{ width:802px; height:24px; margin:0; background-color:rgb(255,255,255);}
+#photo{ width:802px; height:122px;}
+
+#nav{ width:802px; height:36px; background-image:url(../images/nav-2.png);}
+#nav span{ color:#FFF; font-size:17px; margin:0px 14px; line-height:36px;}
+
+/*
+neck颈部
+*/
+#neck{ width:750px; height:338px;  margin:auto; margin-top:12px; position:relative;}
+#neckleft{ width:222px; height:332px; margin:0; border:2px solid #990000;}
+.neckson{ height:50px; background-color:#990000; margin-top:24px; font-size:22px; color:#FFF; line-height:50px;}
+.neckson22{ width:222px; height:260px; margin-top:0; position:relative;}
+.neckson22 ul li{ list-style:none; font-size:18px; color:#990000; margin-left:14px; margin-top:12px;}
+.neckson22 ul li a{font-size:18px; color:#990000;}
+.neckson22 ul li img{ position:relative;top:2px; right:4px;}
+#neckright{ width:526px; height:338px; position:absolute;top:0;right:0;}
+
+
+/*
+content内容
+*/
+#content{ width:750px; height:456px; margin:auto; margin-top:20px; position:relative;border:2px solid #990000;}
+#conTop{ width:750px; height:48px; margin:0; background-color:#b80000;}
+.conTopLeft{ color:#FFF; font-size:20px; float:left; margin-top:8px; margin-left:10px;}
+.conTopLeft img{ position:relative; top:4px;}
+.conTopRight{ color:#FFF; font-size:20px; float:right; margin-top:8px; margin-right:6px;}
+
+#conMid{ width:750px; height:30px; margin:0;}
+.conMidLeft{width:170px; height:30px; background-color:#f1f1f1; float:left; margin:0;}
+.conMidRight{ width:580px; height:30px; background-color:#dedede;float:left; margin-left:0px;}
+#conMid a{font-size:14px;color:rgb(0,0,0); margin:2px 24px;}
+
+#conFoot{ width:750px; height:376px; margin:0; background-color:#f1f1f1;}
+.conFoot11{ width:132px; height:180px; float:left; margin-top:10px; margin-left:46px;}
+.conFoot11 ul li{ display:inline-block; list-style:none; float:left; margin-left:2px; font-size:12px;}
+
+/*
+leg腿部
+*/
+#leg{ width:750px; height:286px; margin:0 auto; margin-top:12px; position:relative;}
+#legleft{ width:360px; height:282px;border:2px solid #990000;}
+.legtop{ width:360px; height:48px; color:#FFF; font-size:20px; background-color:#b80000;}
+.legtop img{ position:relative; top:4px; left:8px;}
+.span1{line-height:16px; margin-left:10px;}
+.span2{float:right; margin-right:4px; font-size:16px; margin-top:0px;}
+.legword{ width:360px; height:232px; font-size:15px; color:rgb(0,0,0);}
+.legword ul li{ display:inline-block;list-style:none; line-height:24px;}
+.legword ul li hr{ text-decoration:none; width:340px; margin-left:10px; opacity:0.2;}
+	
+#legright{ width:360px; height:282px; position:absolute; top:0; right:0px; border:2px solid #990000;}
+
+/*
+foot足部
+*/
+#foot{ width:750px; height:60px; margin:auto; margin-top:14px; border-top-left-radius:12px;border-top-right-radius:12px; background-color:#b80000;}
+#foot p{ float:left; margin-left:316px;font-size:14px; color:#FFF;}
+
+
+
+
+
+
+
+
+
+

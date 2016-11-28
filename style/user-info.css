@@ -1,0 +1,52 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ font-family:"微软雅黑"; margin:0; padding:0; background-color:#ececec;}
+a{ text-decoration:none;}
+
+/*
+top头部
+*/
+#top{ width:802px; height:270px; margin:0 auto;}
+#header{ width:802px; height:80px; margin:0; background-color:#990000; position:relative;}
+#topNav{ width:800px; height:24px;  background:url(../images/nav1.png) no-repeat top right;}
+.top1{ font-size:13px; color:#e1e1e1; float:left; margin-left:280px;}
+.top2{ font-size:12px; color:rgb(255,255,255); float:right; margin-left:4px;}
+#topFoot{ margin:0; height:56px; width:802px; background:url(../images/index_03.png) no-repeat top left;}
+#topFoot form{ float:left; margin-top:12px; margin-left:460px;}
+#topFoot form input:nth-child(1){height:26px; width:210px; border-style:none; border-radius:2px;}
+#topFoot form input:nth-child(2){width:80px; height:27px; font-size:16px; color:#FFF; background-color:#757374; border-radius:4px; border-left:none;}
+#black{ width:802px; height:8px; margsin:0; background-color:#4d4e50;}
+#white{ width:802px; height:24px; margin:0; background-color:rgb(255,255,255);}
+#photo{ width:802px; height:122px;}
+
+#nav{ width:802px; height:36px; background-image:url(../images/nav-2.png);}
+#nav span{ color:#FFF; font-size:17px; margin:0px 14px; line-height:36px;}
+/*
+middle 用户个人信息属性
+*/
+#middle{ width:802px; height:440px; margin:0 auto; margin-top:16px;}
+#mid-left{ width:222px; height:420px; border:3px solid #b80000; float:left; margin:0;} 
+.buyer-center{ width:218px; height:46px; line-height:46px; font-size:24px;  background-color:#b80000;}
+.buyer-center a{ color:#ffffff;}
+
+.mid-left-bottom{ width:202px; height:202px; font-size:13px; color:#b80000;}
+.mid-left-bottom ul{  width:202px; height:202px; margin-top:8px;margin-left:10px;}
+.mid-left-bottom ul li{ display:inline-block; list-style:none;line-height:32px;}
+.mid-left-bottom ul li a{color:#dd0000; font-size: 14px;}
+.mid-left-bottom ul hr{border:1px solid #b80000; opacity:0.4; }
+
+
+#mid-right{ width:560px; height:330px; border:3px solid #b80000; float:left; margin-top:0; margin-left:14px;}
+.user-info{ width:556px; height:48px; line-height:48px; color:#ffffff; font-size:22px; background-color:#b80000;}
+.user-info-1 table{ margin-left:10px;}
+.user-info-1 td{ font-size:16px; color:rgb(0,0,0);}
+.user-info-1 th{ color:#dd0000; font-size:18px; text-align:left; line-height:60px;}
+.input-1{ width:154px; height:20px; background-color:#ffffff;border:1px solid #e2e3ea; border-top:1px solid #afafaf; line-height:26px;margin-top:4px;}
+.input-2{ width:154px; height:20px; border:1px solid #e2e3ea;border-top:1px solid #afafaf;background-color:#f0f0f0;}
+.input-3{ width:154px; height:30px; text-align:center; font-size:15px; color:#ffffff; border:1px solid #666; background-color:#b80000; margin-top:4px;} 
+
+/*
+foot足部
+*/
+#foot{ width:802px; height:60px; margin:auto; margin-top:14px; border-top-left-radius:12px;border-top-right-radius:12px; background-color:#b80000;}
+#foot p{ float:left;margin: 0; margin-left:350px;font-size:14px; color:#FFF;}

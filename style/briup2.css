@@ -1,0 +1,39 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ font-family:"微软雅黑"; margin:0; padding:0; background-color:#ececec;}
+a{ text-decoration:none;}
+
+/*
+top头部
+*/
+#top{ width:802px; height:270px; margin:0 auto;}
+#header{ width:802px; height:80px; margin:0; background-color:#990000; position:relative;}
+#topNav{ width:800px; height:24px;  background:url(../images/nav1.png) no-repeat top right;}
+.top1{ font-size:13px; color:#e1e1e1; float:left; margin-left:280px;}
+.top2{ font-size:12px; color:rgb(255,255,255); float:right; margin-left:4px;}
+#topFoot{ margin:0; height:56px; width:802px; background:url(../images/index_03.png) no-repeat top left;}
+#topFoot form{ float:left; margin-top:12px; margin-left:460px;}
+#black{ width:802px; height:8px; margsin:0; background-color:#4d4e50;}
+#white{ width:802px; height:24px; margin:0; background-color:rgb(255,255,255);}
+#photo{ width:802px; height:122px;}
+
+#nav{ width:802px; height:36px; background-image:url(../images/nav-2.png);}
+#nav span{ color:#FFF; font-size:17px; margin:0px 14px; line-height:36px;}
+/*
+content 中间内容
+*/
+#content{ width:802px; height:854px; margin:0 auto; margin-top:14px;}
+#content-top{ width:162px; height:30px; background-color:#b80000; border-top-left-radius:4px; border-top-right-radius:4px; font-size:20px; color:#FFF;}
+
+#content-main{ width:798px; height:822px;  border:3px solid #b80000;}
+.con-son{ width:266px; height:276px; margin:0; float:left; margin-top:-1px; margin-left:0;background:url(../%E6%9D%B0%E6%99%AE%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/images/polaroid-bg.png) no-repeat;}
+.con-son-img{ width:236px; height:196px; margin:0 auto; margin-top:15px; overflow:hidden; }
+.con-son-name{ margin-top:6px;font-size:19px; line-height:22px; text-align:center;}
+.con-son-mas{ font-size:13px; line-height:15px; text-align:center; margin-top:10px;}
+.con-son a{color:#000;}
+
+/*
+foot足部
+*/
+#foot{ width:802px; height:60px; margin:auto; margin-top:14px; border-top-left-radius:12px;border-top-right-radius:12px; background-color:#b80000;}
+#foot p{ float:left; margin-left:350px;font-size:14px; color:#FFF;}

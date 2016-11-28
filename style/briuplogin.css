@@ -1,0 +1,37 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ font-family:"微软雅黑"; margin:0; padding:0; background-color:#ececec;}
+a{ text-decoration:none;}
+
+/*
+top头部
+*/
+#top{ width:802px; height:270px; margin:0 auto;}
+#header{ width:802px; height:80px; margin:0; background-color:#990000; position:relative;}
+#topNav{ width:800px; height:24px;  background:url(../images/nav1.png) no-repeat top right;}
+.top1{ font-size:13px; color:#e1e1e1; float:left; margin-left:280px;}
+.top2{ font-size:12px; color:rgb(255,255,255); float:right; margin-left:4px;}
+#topFoot{ margin:0; height:56px; width:802px; background:url(../images/index_03.png) no-repeat top left;}
+#topFoot form{ float:left; margin-top:12px; margin-left:460px;}
+#black{ width:802px; height:8px; margsin:0; background-color:#4d4e50;}
+#white{ width:802px; height:24px; margin:0; background-color:rgb(255,255,255);}
+#photo{ width:802px; height:122px;}
+
+#nav{ width:802px; height:36px; background-image:url(../images/nav-2.png);}
+#nav span{ color:#FFF; font-size:17px; margin:0px 14px; line-height:36px;}
+/*
+mid-login 登录界面主要显示css属性
+*/
+#mid-login{ width:482px; height:404px; margin:0 auto; margin-top:50px; border:2px solid #ff0000; border-radius:10px; background:url(../%E6%9D%B0%E6%99%AE%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/images/xiaoren.jpg) no-repeat;}
+#mid-logo{ width:482px; height:34px; margin-top:26px; background-color:#dd0000; color:#fff; font-size:24px;}
+.mid-input{ width:432px; height:294px; margin-top:26px; margin-left:20px;}
+.mid-input p{ color:#dd0047; font-size:17px; margin-top:12px;}
+.input-1{ width:304px; height:32px; background-color:#fff; border-left:2px solid #848484;border-top:2px solid #848484; border-radius:6px;}
+.input-2{ width:304px; height:34px; background-color:#dd0000; font-size:20px; text-align:center; line-height:34px; color:#ffffff; border-style:none; border-radius:6px; margin-top:30px; }
+.span-1{ font-size:15px; color:#dd0047; float:right; margin-top:20px; margin-right:10px;}
+.span-2{ font-size:14px; color:#dd0047; float:left; margin-top:54px; margin-left:0;}
+/*
+foot足部
+*/
+#foot{ width:802px; height:60px; margin:auto; margin-top:14px; border-top-left-radius:12px;border-top-right-radius:12px; background-color:#b80000;}
+#foot p{ float:left; margin-left:350px;font-size:14px; color:#FFF;}
